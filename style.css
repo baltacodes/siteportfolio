@@ -195,7 +195,7 @@ section.sobre .flex{
     background-color: blue;
     font-size: 22px;
     cursor: pointer;
-    margin: 0 5px;
+    margin: 30px 5px;
     transition: .2s;
 }
 
