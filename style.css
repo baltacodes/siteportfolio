@@ -127,8 +127,32 @@ section.especialidades{
     padding: 40px  4%;
 }
 
+section.especialidades .flex{
+    gap: 100px;
+}
+
 .especialidades .especialidades-box{
     color: white;
+    padding: 40px;
+    margin-top: 45px;
+    border-radius:  25px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.especialidades .especialidades-box:hover{
+    transform:  scale(1.05);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.473);
+}
+
+.especialidades .especialidades-box i{
+    font-size: 80px;
+    color:  blue;
+}
+
+.especialidades .especialidades-box h3{
+    font-size: 28px;
+    margin: 15px 0;
 }
 
 
