@@ -38,6 +38,16 @@ body{
     transform: scale(1.05);
 }
 
+h2.titulo{
+    color: white;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: blue;
+}
+
 /*  estilo cabecalho*/
 header{
     padding: 40px 4%;
@@ -110,6 +120,15 @@ section.topo-do-site .flex{
     100%{
         top: 30px;
     }
+}
+
+/*estilo das especialidades*/
+section.especialides{
+    padding: 40px  4%;
+}
+
+.especialides especialidades-box{
+    color: white;
 }
 
 
